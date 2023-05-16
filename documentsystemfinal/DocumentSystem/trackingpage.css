@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    color: #fff;
+    display: block;
+    height: 100vh;
+    background-image: url("image/background.png");
+    background-size: cover;
+    background-position: 40%;
+    
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    background: #bf2929;
+    color: white;
+    overflow:auto;
+    height: 121px;
+
+  }
+.header .Track-Document{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    vertical-align: super;
+}
+
+.header .logo{
+    width:100px;
+    height: 80px;
+
+}
+.header .Menu{
+    
+    font-size: 30px;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+.header a{
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(255, 142, 142);
+}
+.header a:hover{
+    color: rgb(255, 255, 255);
+}
+.header .active{
+    color: rgb(250, 193, 193);
+    background: rgb(128, 42, 42) ;
+    padding: 10px;
+}
+
+.tup{  
+    margin-left: 840px;
+    margin-top: 50px;
+    width: 250px;
+}
+.trackNum{
+    width: 50%;
+    border-radius: 35px;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 50px;   
+    margin-left: 50vh;
+    padding: 10px;
+    white-space: nowrap;
+    background: #bf2929;
+    text-align: center;
+    height: 60px;
+    color: #fff;
+
+}
+.button{
+    text-align: center;   
+    margin-top: 100px;
+}
+.button input{
+    padding: 10px 0;
+    margin-top: 20px;
+    height: 100%;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    background: #dc0606ca;
+    position: relative; top: -50px;
+    cursor: pointer;
+}
+ .button input:hover{
+    color: #fff;
+    background:rgb(116, 0, 0);
+    
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }

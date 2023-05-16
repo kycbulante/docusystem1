@@ -1,0 +1,58 @@
+.body1
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),
+    url("../image/background.png") center/cover no-repeat fixed; 
+    min-height: 100vh;
+   
+}
+
+.tablebg
+{
+  padding-top: 50px;
+}
+
+
+@media screen and (max-width:567px) {
+
+    #title
+    {
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:505px) {
+
+    #title
+    {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width:471px) {
+
+    #title
+    {
+        font-size: 16px;
+    }
+    #brandlogo
+    {
+     
+      display: flex;
+      justify-content: center;
+    }
+    
+    
+}
+
+@media screen and (max-width:360px) {
+
+    #title
+    {
+        font-size: 12px;
+    }
+}
+
+
+
+

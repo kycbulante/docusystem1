@@ -1,0 +1,54 @@
+
+
+
+  #title
+  {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .body1
+  {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),
+    url("image/background.png") center/cover no-repeat fixed; 
+    min-height: 100vh;
+   
+
+  }
+
+.logo
+{
+   margin-top: 30px;
+}
+
+  .logo img
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  .button1
+  {
+    padding:20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  .button1:hover {
+    background-color: rgb(116, 0, 0);
+}
+
+@media screen and (max-width:1203px) {
+
+#brandlogo
+  {
+padding-left: 1500px;
+
+  }
+}
+
+.nav1
+{
+  display: flex;
+  justify-content: end;
+}
